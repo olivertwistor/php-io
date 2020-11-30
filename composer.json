@@ -1,0 +1,38 @@
+{
+  "name": "olivertwistor/php-io",
+  "description": "Library with I/O functionality for PHP.",
+  "version": "0.1.0",
+  "type": "library",
+  "keywords": ["php-io", "php", "io"],
+  "homepage": "https://github.com/olivertwistor/php-io",
+  "readme": "LICENSE",
+  "time": "2020-11-30",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johan Nilsson",
+      "email": "oliver_twistor@hotmail.com",
+      "homepage": "http://www.olivertwistor.nu",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "oliver_twistor@hotmail.com",
+    "issues": "https://github.com/olivertwistor/php-io/issues",
+    "source": "https://github.com/olivertwistor/php-io",
+    "docs": "https://github.com/olivertwistor/php-io"
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Olivertwistor\\PhpIo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Olivertwistor\\PhpIo\\Tests\\": "tests/"
+    }
+  }
+}
